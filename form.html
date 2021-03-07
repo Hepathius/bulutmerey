@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt Formu</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="icon" href="/assets/WhatsApp Image 2021-03-07 at 17.10.56.jpeg">
+</head>
+<body>
+    <section>
+        <div class="container">
+          <form action="https://formspree.io/xwkwgebr" method="POST" id="my-form">
+      
+            <div class="form-group">
+              <label for="firstName"> İsminiz ve soyadınız</label>
+              <input type="text" id="firstName" name="firstName">
+            </div>
+      
+            <div class="form-group">
+              <label for="latsName"> Instagram isminiz </label>
+              <input type="text" id="lastName" name="lastName">
+            </div>
+      
+            <div class="form-group">
+              <label for="date">Doğum tarihiniz</label>
+              <input type="date" id="date" name="date">
+            </div>
+      
+            <div class="form-group">
+              <label for="massage">Eklemek istedikleriniz</label>
+              <textarea name="massage" placeholder="Hobiler, enseye basmak hakkındaki fikriniz" id="massage" cols="30" rows="10"></textarea>
+            </div>
+      
+            <button type="submit">Gönder</button>
+          </form>
+        </div>
+        <div id="status"></div>
+      </section>
+</body>
+</html>
